@@ -1,0 +1,56 @@
+.card-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    position: absolute;
+
+    top: 75vh;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+
+    cursor: pointer;
+
+    border-radius: 25px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+    filter: blur(0.1px);
+}
+
+#ligue-1 {
+    background-image: url("../assets/images/logo-ligue1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ligue-a {
+    background-image: url("../assets/images/logo-liguea.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bundesliga {
+    background-image: url("../assets/images/logo-bundesliga.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#premierleague {
+    background-image: url("../assets/images/logo-premierleague.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#serie-a {
+    background-image: url("../assets/images/logo-serie-a.jpg");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,83 @@
+/****************************** COMMON ******************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background-color: #010206;
+}
+.title {}
+
+p {}
+
+h1 {
+    font-family: "Play", sans-serif;
+    font-size: 3em;
+    color: #F20707;
+}
+
+h2 {}
+
+div {}
+
+
+/****************************** NAVBAR ******************************/
+.navbar-item {
+    font-family: "Play", sans-serif;
+    font-size: larger;
+    
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.navbar-navigator {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-position: center;
+    height: 75px;
+}
+
+.navbar-logo {
+    margin-top: 50px;
+    width: 100px;
+}
+
+/****************************** HEADER ******************************/
+header {
+    margin: 0;
+    padding: 0;
+
+    height: 80vh;
+
+    background-image: url("../assets/images/background-header.jpg");
+    background-position: bottom;
+
+    text-align: center;
+}
+
+.header-title {
+    font-family: "Play", sans-serif;
+    font-size: 3em;
+    color: #F2F2F2;
+}
+
+.header-button {
+    font-family: "Play", sans-serif;
+    font-size: 1.5em;
+    color: #F2F2F2;
+    background-color: #f2070781;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
