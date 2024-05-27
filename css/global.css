@@ -1,21 +1,31 @@
 /****************************** COMMON ******************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Heebo:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     padding: 0;
     margin: 0;
 
-    background-color: #010206;
+    background-color: black;
 }
-.title {}
+
+.title {
+    color: white;
+    text-align: center;
+}
 
 p {}
 
 h1 {
     font-family: "Play", sans-serif;
     font-size: 3em;
-    color: #F20707;
+    color: #000000;
 }
 
 h2 {}
@@ -26,8 +36,8 @@ div {}
 /****************************** NAVBAR ******************************/
 .navbar-item {
     font-family: "Play", sans-serif;
-    font-size: larger;
-    
+    font-size: 20px;
+
     color: #F2F2F2;
     text-decoration: none;
 }
@@ -41,43 +51,15 @@ div {}
 
     height: 100%;
     margin: 0;
+
 }
 
 .navbar {
     background-position: center;
     height: 75px;
+    padding-top: 20px;
 }
 
 .navbar-logo {
-    margin-top: 50px;
-    width: 100px;
-}
-
-/****************************** HEADER ******************************/
-header {
-    margin: 0;
-    padding: 0;
-
-    height: 80vh;
-
-    background-image: url("../assets/images/background-header.jpg");
-    background-position: bottom;
-
-    text-align: center;
-}
-
-.header-title {
-    font-family: "Play", sans-serif;
-    font-size: 3em;
-    color: #F2F2F2;
-}
-
-.header-button {
-    font-family: "Play", sans-serif;
-    font-size: 1.5em;
-    color: #F2F2F2;
-    background-color: #f2070781;
-    border: none;
-    border-radius: 5px;
-    padding: 15px;
+    width: 140px;
 }

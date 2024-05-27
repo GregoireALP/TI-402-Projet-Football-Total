@@ -1,0 +1,275 @@
+{
+    "ligue1": [
+        {
+            "nom": "K. Mbappé",
+            "buts": 27,
+            "matchs": 29
+        },
+        {
+            "nom": "A. Lacazette",
+            "buts": 19,
+            "matchs": 29
+        },
+        {
+            "nom": "J. David",
+            "buts": 19,
+            "matchs": 34
+        },
+        {
+            "nom": "P. Aubameyang",
+            "buts": 17,
+            "matchs": 34
+        },
+        {
+            "nom": "W. Ben Yedder",
+            "buts": 16,
+            "matchs": 32
+        }
+
+    ],
+
+    "liga": [
+        {
+            "nom": "A. Sorloth",
+            "buts": 23,
+            "matchs": 33
+        },
+        {
+            "nom": "A. Dovbyk",
+            "buts": 21,
+            "matchs": 35
+        },
+        {
+            "nom": "J. Bellingham",
+            "buts": 19,
+            "matchs": 27
+        },
+        {
+            "nom": "R. Lewandowski",
+            "buts": 18,
+            "matchs": 34
+        },
+        {
+            "nom": "A. Griezmann",
+            "buts": 16,
+            "matchs": 32
+        }
+    ],
+    "bundesliga": [
+        {
+            "nom": "H. Kane",
+            "buts": 36,
+            "matchs": 32
+        },
+        {
+            "nom": "S. Guirassy",
+            "buts": 28,
+            "matchs": 28
+        },
+        {
+            "nom": "L. Openda",
+            "buts": 24,
+            "matchs": 34
+        },
+        {
+            "nom": "D. Undav",
+            "buts": 18,
+            "matchs": 30
+        },
+        {
+            "nom": "M. Beier",
+            "buts": 16,
+            "matchs": 33
+        }
+    ],
+    "seriea": [
+        {
+            "nom": "L. Martinez",
+            "buts": 24,
+            "matchs": 33
+        },
+        {
+            "nom": "D. Vlahovic",
+            "buts": 16,
+            "matchs": 32
+        },
+        {
+            "nom": "V. Osimhen",
+            "buts": 15,
+            "matchs": 24
+        },
+        {
+            "nom": "O. Giroud",
+            "buts": 14,
+            "matchs": 34
+        },
+        {
+            "nom": "A. Gudmundsson",
+            "buts": 14,
+            "matchs": 34
+        }
+    ],
+    "premierleague": [
+        {
+            "nom": "E. Haaland",
+            "buts": 27,
+            "matchs": 31
+        },
+        {
+            "nom": "C. Palmer",
+            "buts": 22,
+            "matchs": 34
+        },
+        {
+            "nom": "A. Isak",
+            "buts": 21,
+            "matchs": 30
+        },
+        {
+            "nom": "P. Foden",
+            "buts": 19,
+            "matchs": 35
+        },
+        {
+            "nom": "O. Watkins",
+            "buts": 19,
+            "matchs": 37
+        }
+    ],
+    "premierleaguehis": [
+        {
+            "nom": "A. Shearer",
+            "buts": 260,
+            "matchs": 441
+        },
+        {
+            "nom": "W. Rooney",
+            "buts": 208,
+            "matchs": 491
+        },
+        {
+            "nom": "A. Cole",
+            "buts": 187,
+            "matchs": 414
+        },
+        {
+            "nom": "S. Aguero",
+            "buts": 184,
+            "matchs": 275
+        },
+        {
+            "nom": "F. Lampard",
+            "buts": 177,
+            "matchs": 609
+        }
+    ],
+    "ligahis": [
+        {
+            "nom": "L. Messi",
+            "buts": 474,
+            "matchs": 520
+        },
+        {
+            "nom": "C. Ronaldo",
+            "buts": 311,
+            "matchs": 292
+        },
+        {
+            "nom": "T. Zarra",
+            "buts": 251,
+            "matchs": 277
+        },
+        {
+            "nom": "K. Benzema",
+            "buts": 238,
+            "matchs": 404
+        },
+        {
+            "nom": "R. Raul",
+            "buts": 228,
+            "matchs": 550
+        }
+    ],
+    "serieahis": [
+        {
+            "nom": "S. Piola",
+            "buts": 274,
+            "matchs": 537
+        },
+        {
+            "nom": "F. Totti",
+            "buts": 250,
+            "matchs": 619
+        },
+        {
+            "nom": "G. Nordahl",
+            "buts": 225,
+            "matchs": 291
+        },
+        {
+            "nom": "A. Meazza",
+            "buts": 216,
+            "matchs": 367
+        },
+        {
+            "nom": "J. Altafini",
+            "buts": 216,
+            "matchs": 459
+        }
+    ],
+    "bundesligahis": [
+        {
+            "nom": "G. Muller",
+            "buts": 365,
+            "matchs": 427
+        },
+        {
+            "nom": "R. Lewandowski",
+            "buts": 312,
+            "matchs": 384
+        },
+        {
+            "nom": "K. Fischer",
+            "buts": 268,
+            "matchs": 535
+        },
+        {
+            "nom": "J. Heynckes",
+            "buts": 220,
+            "matchs": 369
+        },
+        {
+            "nom": "M. Burgsmuller",
+            "buts": 213,
+            "matchs": 447
+        }
+    ],
+    "ligue1his": [
+        {
+            "nom": "D. Papin",
+            "buts": 156,
+            "matchs": 270
+        },
+        {
+            "nom": "P. Courtois",
+            "buts": 158,
+            "matchs": 400
+        },
+        {
+            "nom": "E. Cantona",
+            "buts": 148,
+            "matchs": 220
+        },
+        {
+            "nom": "K. Mbappe",
+            "buts": 130,
+            "matchs": 160
+        },
+        {
+            "nom": "R. Bianchi",
+            "buts": 179,
+            "matchs": 280
+        }
+    ]
+
+}

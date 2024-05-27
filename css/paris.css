@@ -1,0 +1,77 @@
+.container {
+    background-color: white;
+    text-align: center;
+
+
+    width: 75%;
+
+    padding: 50px;
+    border-radius: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    /*centering the content*/
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    font-family: "Cabin", sans-serif;
+    
+}
+
+.match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.match:nth-child(odd) {
+    background-color: #efefef;
+}
+
+.match-number {
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.teams {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.odds {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.odds div {
+    text-align: center;
+}
+
+.odds div span {
+    display: block;
+    margin-top: 5px;
+    color: green;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}

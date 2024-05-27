@@ -3,32 +3,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-
-    position: absolute;
-
-    top: 75vh;
+    gap: 30px;
 }
 
 .card {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
 
     cursor: pointer;
 
     border-radius: 25px;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out;
-    filter: blur(0.1px);
+    overflow: hidden;
 }
 
 #ligue-1 {
     background-image: url("../assets/images/logo-ligue1.png");
     background-size: cover;
     background-position: center;
+    
 }
 
 #ligue-a {
@@ -41,6 +33,7 @@
     background-image: url("../assets/images/logo-bundesliga.png");
     background-size: cover;
     background-position: center;
+
 }
 
 #premierleague {
@@ -53,4 +46,58 @@
     background-image: url("../assets/images/logo-serie-a.jpg");
     background-size: cover;
     background-position: center;
+
+}
+
+/****************************** HEADER ******************************/
+
+header {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    text-align: center;
+    background-color: black;
+}
+
+
+.header-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* center the items vertical */
+    align-items: center;
+    /* center the items horizontal */
+    justify-items: center;
+    height: 87.5%;
+}
+
+.header-title {
+    font-family: "Play", sans-serif;
+    font-size: 40px;
+    color: #F2F2F2;
+}
+
+.header-button {
+    font-family: "Play", sans-serif;
+    font-size: 1.25em;
+    color: #F2F2F2;
+    background-color: #feffdfa6;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.header-button:hover{
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    color: #000000 ;
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.header-image {
+    width: 55%;
+    margin: 0 auto;
 }
