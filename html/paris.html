@@ -28,7 +28,20 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container" id="bet-grid">
+            <h1>Tenter un paris</h1>
+            <div class="match" id="bet-header">
+                <div class="teams">
+                    <div>Equipe 1</div>
+                    <div>-</div>
+                    <div>Equipe 2</div>
+                </div>
+                <div class="odds">
+                    <p>Victoire Equipe 1</p>
+                    <p>Match nulle</p>
+                    <p>Victoire Equipe 2</p>
+                </div>
+            </div>
             <div class="match">
                 <div class="teams">
                     <div>Al Nassr</div>
@@ -36,9 +49,9 @@
                     <div>Al Ittihad FC</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>61%</span></div>
-                    <div class="button">N <span>19%</span></div>
-                    <div class="button">2 <span>20%</span></div>
+                    <label class="radio-button"><input type="radio" name="match1" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match1" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match1" value="2"><span></span></label>
                 </div>
             </div>
             <div class="match">
@@ -48,9 +61,9 @@
                     <div>Al Hilal</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>10%</span></div>
-                    <div class="button">N <span>13%</span></div>
-                    <div class="button">2 <span>77%</span></div>
+                    <label class="radio-button"><input type="radio" name="match2" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match2" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match2" value="2"><span></span></label>
                 </div>
             </div>
             <div class="match">
@@ -60,9 +73,9 @@
                     <div>Al Feiha</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>72%</span></div>
-                    <div class="button">N <span>18%</span></div>
-                    <div class="button">2 <span>10%</span></div>
+                    <label class="radio-button"><input type="radio" name="match3" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match3" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match3" value="2"><span></span></label>
                 </div>
             </div>
             <div class="match">
@@ -72,9 +85,9 @@
                     <div>Al Ettifaq</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>48%</span></div>
-                    <div class="button">N <span>28%</span></div>
-                    <div class="button">2 <span>24%</span></div>
+                    <label class="radio-button"><input type="radio" name="match4" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match4" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match4" value="2"><span></span></label>
                 </div>
             </div>
             <div class="match">
@@ -84,9 +97,9 @@
                     <div>Al Fateh</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>48%</span></div>
-                    <div class="button">N <span>28%</span></div>
-                    <div class="button">2 <span>24%</span></div>
+                    <label class="radio-button"><input type="radio" name="match5" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match5" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match5" value="2"><span></span></label>
                 </div>
             </div>
             <div class="match">
@@ -96,11 +109,13 @@
                     <div>Al Raed</div>
                 </div>
                 <div class="odds">
-                    <div class="button">1 <span>41%</span></div>
-                    <div class="button">N <span>30%</span></div>
-                    <div class="button">2 <span>29%</span></div>
+                    <label class="radio-button"><input type="radio" name="match6" value="1"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match6" value="N"><span></span></label>
+                    <label class="radio-button"><input type="radio" name="match6" value="2"><span></span></label>
                 </div>
             </div>
+
+            <input type="button" value="Envoyer" id="send-bet" onclick="sendBet()">
         </div>
     </main>
 
