@@ -1,5 +1,5 @@
-.champ-card {
-    background-color: white;
+#champ-card-L1{
+    background-color: #0E5EF8;
     text-align: center;
     
 
@@ -8,6 +8,87 @@
     padding: 15px;
     border-radius: 15px;
 }
+
+#champ-card-liga{
+    background-color: #FF4B44;
+    text-align: center;
+    
+
+    width: 95%;
+
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#champ-card-seriA{
+    background-color: #15489B;
+    text-align: center;
+    
+
+    width: 95%;
+
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#champ-card-premierleague{
+    background-color: #3E1051;
+    text-align: center;
+    
+
+    width: 95%;
+
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#champ-card-bundesliga{
+    background-color: #ED1C24;
+    text-align: center;
+    
+
+    width: 95%;
+
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+#imgclass-L1{
+    position: absolute;
+    text-align: right;
+    width : 45px;
+    height : auto;
+}
+
+#imgclass-liga{
+    position: absolute;
+    text-align: right;
+    width : auto;
+    height : 59px;
+}
+
+#imgclass-serieA{
+    position: absolute;
+    text-align: right;
+    width : auto;
+    height : 59px;
+}
+
+#imgclass-premierleague{
+    position: absolute;
+    text-align: right;
+    width : auto;
+    height : 65px;
+}
+
+#imgclass-bundesliga{
+    position: absolute;
+    text-align: right;
+    width : auto;
+    height : 59px;
+}
+
 
 main {
     display: flex;
@@ -22,26 +103,47 @@ main {
 
 
 table{
-    border-collapse: collapse;
+    border-collapse: collapse ;
     margin: auto;
     width: 100%;
     font-family: "Cabin", sans-serif;
-    thead{
-        border: 1px solid;
-    }
+    
 }
 
 
 tr{
-    border-collapse: collapse;
-        border: 2px solid;
-        border-radius: 5px;
         th{
-            border: 2px solid;
+
+            background-color: rgb(228, 226, 226);
+            border: 2px solid rgb(228, 226, 226);
         }
 }
 
+td:nth-child(odd){
+    border: 2px solid rgb(228, 226, 226);
+    background-color: rgb(228, 226, 226);
+}
 
+td:nth-child(odd):hover{
+    background-color: rgb(158, 152, 152);
+}
 
+td:nth-child(even){
+    border: 2px solid rgb(228, 226, 226);
+    background-color: white;
+}
 
-#
+td:nth-child(even):hover{
+    background-color: rgb(158, 152, 152);
+}
+
+caption{
+    border: 2px solid rgb(228, 226, 226);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 40px;
+    font-family: "Play", sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+}
