@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
     <link rel="stylesheet" href="../css/paris.css">
     <script src="../js/paris.js"></script>
 </head>
@@ -26,11 +27,46 @@
             </ul>
         </nav>
     </header>
+    <h1>Parier</h1>
+    <div class="regles">
+        <p>
+            <ul>
+                Règles :
+                <li>
+                    Conditions de validation :
+                        <ul>
+                            <li>Il faut que chaque pari possède une réponse pour que la grille soit validée.</li>
+                            <li>Il faut que les informations soient remplies.</li>
+                            <li>Il faut que le participant ait plus de 18 ans.</li>
+                        </ul>
+                </li>
 
+                <li>
+                    Condition de victoire :
+                    <ul>
+                        <li>
+                        Minimum 5 paris valides pour gagner.
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </p>
+    </div>
     <main>
-        <h1>Parier</h1>
-
         <div class="container" id="bet-grid">
+
+            <p id="disclaimer">Attention ! Nous vous rappelons que le pari est interdit pour les personnes de moins de 18 ans !</p>
+            <div>
+                <h2>Vos informations</h2>
+                <input type="text" name="nom" id="nom" placeholder="Entrer votre nom">
+                <input type="text" name="prenom" id="prenom" placeholder="Entrer votre prénom">
+            </div>
+
+            <h2>Votre grille</h2>
+
             <div class="match" id="bet-header">
                 <div class="teams">
                     <div>Equipe 1</div>
@@ -39,15 +75,15 @@
                 </div>
                 <div class="odds">
                     <p>Victoire Equipe 1</p>
-                    <p>Match nulle</p>
+                    <p>Match nul</p>
                     <p>Victoire Equipe 2</p>
                 </div>
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Al Nassr</div>
+                    <div>Paris SG</div>
                     <div>-</div>
-                    <div>Al Ittihad FC</div>
+                    <div>FC Barcelone</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match1" value="1"><span></span></label>
@@ -57,9 +93,9 @@
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Al Wehda</div>
+                    <div>Real Madrid</div>
                     <div>-</div>
-                    <div>Al Hilal</div>
+                    <div>Borussia Dortmund</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match2" value="1"><span></span></label>
@@ -69,9 +105,9 @@
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Al Ahli SC</div>
+                    <div>Bayer Leverkusen</div>
                     <div>-</div>
-                    <div>Al Feiha</div>
+                    <div>Fiorentina</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match3" value="1"><span></span></label>
@@ -81,9 +117,9 @@
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Al Taawon</div>
+                    <div>Man Utd</div>
                     <div>-</div>
-                    <div>Al Ettifaq</div>
+                    <div>Man City</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match4" value="1"><span></span></label>
@@ -93,9 +129,9 @@
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Al Shabab</div>
+                    <div>Arsenal</div>
                     <div>-</div>
-                    <div>Al Fateh</div>
+                    <div>Tottenham</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match5" value="1"><span></span></label>
@@ -105,9 +141,9 @@
             </div>
             <div class="match">
                 <div class="teams">
-                    <div>Damac</div>
+                    <div>Brest</div>
                     <div>-</div>
-                    <div>Al Raed</div>
+                    <div>Lens</div>
                 </div>
                 <div class="odds">
                     <label class="radio-button"><input type="radio" name="match6" value="1"><span></span></label>
@@ -116,16 +152,30 @@
                 </div>
             </div>
 
-            <input type="button" value="Envoyer" id="send-bet" onclick="sendBet()">
+            <input type="button" value="Envoyer" id="send-bet" class="red-btn" onclick="sendBet()">
         </div>
-    </main>
 
+
+        <div id="bet-res" class="container">
+            <h1 style="color: black;">Résultats</h1>
+
+            <h2 id="bet-res-nom"></h2>
+            <h2 id="bet-res-prenom"></h2>
+
+            <h2 id="bet-win"></h2>
+            <h2 id="bet-lose"></h2>
+
+            <input type="button" value="Refaire un pari" class="red-btn" id="bet-reset">
+        </div>
+        
+    </main>
+    
     <footer>
         <img src="../assets/images/logo.png" alt="logo" class="footer-logo">
-        <p>Accueil</p>
-        <p>Nous Contacter</p>
-        <p>CGU</p>
-        <p>Mentions légales</p>
+        <a href="/">Accueil</a>
+        <a href="/html/contact.html">Nous Contacter</a>
+        <a href="https://www.google.com">CGU</a>
+        <a href="https://www.google.com">Mentions légales</a>
         <p>© 2024 Football Total</p>
     </footer>
 

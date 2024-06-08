@@ -22,15 +22,25 @@ main {
     
 }
 
+.regles {
+    text-align: left;
+    font-style: italic;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    color : grey;
+    margin-left: 130px;
+}
+
 .match {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    background-color: #f5f5f5;
 }
 
 .match:nth-child(odd) {
-    background-color: #efefef;
+    background-color: #ececec;
 }
 
 .match-number {
@@ -76,7 +86,7 @@ main {
     cursor: pointer;
 }
 
-#send-bet {
+.red-btn {
     background: #ff203e;
     border-radius: 9px;
     border: none;
@@ -144,4 +154,21 @@ main {
     font-weight: bold;
     background-color: #ff203e;
     border-radius: 15px 15px 0px 0px;
+}
+
+#bet-res {
+    display: none;
+}
+
+#bet-win {
+    color: #43a343;
+}
+
+#bet-lose {
+    color: #ff203e;
+}
+
+#disclaimer {
+    font-size: 20px;
+    color: #ff203e;
 }

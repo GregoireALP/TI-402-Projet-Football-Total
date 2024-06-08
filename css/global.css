@@ -24,10 +24,14 @@ footer {
     margin-top: 75px;
 }
 
+footer a{
+    color: white;
+    font-family: "Play", sans-serif;
+}
+
 footer p {
     color: white;
     font-family: "Play", sans-serif;
-    text-decoration: none;
 }
 
 footer img {
